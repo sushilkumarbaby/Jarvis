@@ -1,0 +1,6 @@
+{
+  "name": "JARVIS — Hindi Voice AI & Android Assistant",
+  "description": "Next-generation Hindi-first hands-free AI voice assistant with real-time Gemini Live voice, multi-agent orchestration, persistent memory, automation, and a complete native Android Kotlin codebase.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

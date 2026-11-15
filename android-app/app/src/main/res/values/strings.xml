@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JARVIS</string>
+    <string name="accessibility_service_label">JARVIS UI Automation</string>
+    <string name="accessibility_service_description">User-authorized automation service enabling JARVIS to tap, scroll, and enter text in permitted apps when requested by voice.</string>
+    <string name="notification_listener_label">JARVIS Notification Reader</string>
+    <string name="wake_channel_name">JARVIS Active Wake-Word Microphone</string>
+    <string name="reminder_channel_name">JARVIS Scheduled Reminders</string>
+</resources>

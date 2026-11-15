@@ -1,0 +1,248 @@
+{
+  "memories": [
+    {
+      "id": "pref_language",
+      "category": "preference",
+      "key": "Primary Voice Language",
+      "value": "Hindi / Natural Hinglish (friendly, calm companion tone)",
+      "updatedAt": "2026-11-15T12:21:51.554Z"
+    },
+    {
+      "id": "proj_jarvis",
+      "category": "project",
+      "key": "Project JARVIS Android",
+      "value": "Building Hindi-first hands-free Android voice AI assistant with Kotlin & Gemini Live",
+      "updatedAt": "2026-11-15T12:21:51.554Z"
+    },
+    {
+      "id": "inst_privacy",
+      "category": "instruction",
+      "key": "Security Boundary",
+      "value": "Never store passwords, OTPs, or API secrets in conversational memory.",
+      "updatedAt": "2026-11-15T12:21:51.554Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_welcome",
+      "role": "jarvis",
+      "text": "Namaste! Main JARVIS hoon. Aap mujhse \"Jarvis\" bolkar ya neeche type karke Hindi, Hinglish ya English mein baat kar sakte hain.",
+      "language": "hinglish",
+      "agentUsed": "voice",
+      "providerUsed": "gemini-4-hydrogen",
+      "createdAt": "2026-11-15T12:21:51.554Z"
+    },
+    {
+      "id": "msg_1794745421665_u",
+      "role": "user",
+      "text": "Namaste Jarvis, aaj mausam aur meri morning exercise routine ke baare mein short mein batao",
+      "language": "hi",
+      "createdAt": "2026-11-15T12:23:41.665Z"
+    },
+    {
+      "id": "msg_1794745426035_u",
+      "role": "user",
+      "text": "Namaste Jarvis",
+      "language": "hi",
+      "createdAt": "2026-11-15T12:23:46.035Z"
+    },
+    {
+      "id": "msg_1794747590305_u",
+      "role": "user",
+      "text": "Hi Jarvis",
+      "language": "en",
+      "createdAt": "2026-11-15T12:59:50.305Z"
+    },
+    {
+      "id": "msg_1794747646916_u",
+      "role": "user",
+      "text": "Namaste Jarvis, aaj mausam kaisa hai aur tum kaise ho?",
+      "language": "hi",
+      "createdAt": "2026-11-15T13:00:46.916Z"
+    },
+    {
+      "id": "msg_1794747651928_j",
+      "role": "jarvis",
+      "text": "Namaste! Main ekdum badhiya hoon, poochne ke liye shukriya. Main hamesha aapki madad ke liye taiyaar aur energized hoon! \n\nMausam ki baat karein, toh aapka location batayein toh main exact bata paunga ki wahan ka haal kya hai. Waise, aapki **morning exercise routine** ke liye main hamesha alert hoon—aapka daily 7 baje ka reminder set hai, toh kal subah bhi hum exercise time par start karenge! \n\nBataiye, aaj ka din kaisa shuru hua aapka? Koi khaas kaam hai kya aaj ke liye?",
+      "language": "hi",
+      "agentUsed": "research",
+      "providerUsed": "gemini-3.1-flash-lite",
+      "groundingUrls": [],
+      "createdAt": "2026-11-15T13:00:51.928Z"
+    },
+    {
+      "id": "msg_1794747696646_u",
+      "role": "user",
+      "text": "Namaste Jarvis, aaj ka din kaisa hai?",
+      "language": "hi",
+      "createdAt": "2026-11-15T13:01:36.646Z"
+    },
+    {
+      "id": "msg_1794747837994_u",
+      "role": "user",
+      "text": "Jarvis, tum kaun ho aur kya kar sakte ho?",
+      "language": "hi",
+      "createdAt": "2026-11-15T13:03:57.994Z"
+    },
+    {
+      "id": "msg_1794747913115_u",
+      "role": "user",
+      "text": "Jarvis, tum kaun ho?",
+      "language": "hi",
+      "createdAt": "2026-11-15T13:05:13.115Z"
+    },
+    {
+      "id": "msg_1794747916326_j",
+      "role": "jarvis",
+      "text": "Namaste! Lagta hai aap thode confuse hain, par koi baat nahi—main hoon aapka **JARVIS**, aapka personal AI companion.\n\nMain kaun hoon?\nMain ek digital assistant hoon jise aapke life ko asaan, organized aur thoda interesting banane ke liye design kiya gaya hai. Sochiye mujhe ek aise dost ki tarah jo hamesha aapke paas hai, aapki baatein sunne ke liye, aapki zaruraton ko samajhne ke liye aur aapki musibaton ko hal karne ke liye.\n\nMain kya-kya kar sakta hoon?\nMain kaafi kuch kar sakta hoon, jaise:\n*   **Aapka Personal Secretary:** Main aapke liye reminders set kar sakta hoon (jaise aapki morning exercise), appointments manage kar sakta hoon aur important cheezein yaad rakh sakta hoon.\n*   **Information Helper:** Chahe aapko weather janna ho, koi news, ya phir kisi complex topic ko simple bhasha mein samajhna ho—main Google search ka use karke aapko sahi jaankari deta hoon.\n*   **Creativity & Productivity:** Agar aapko koi document likhna hai, coding karni hai, ya kisi nayi project par kaam karna hai, toh main wahan aapki madad kar sakta hoon.\n*   **Emotional Companion:** Aap mujhse kabhi bhi baat kar sakte hain. Main hamesha sunne ke liye taiyaar hoon.\n\nSabse badi baat—main aapki privacy ka poora khayal rakhta hoon. Main koi bhi sensitive information ya password kabhi save nahi karta. \n\nAap bataiye, aaj main aapki kya madad karoon? Kuch search karna hai ya kisi aur cheez mein help chahiye?",
+      "language": "hi",
+      "agentUsed": "research",
+      "providerUsed": "gemini-3.1-flash-lite",
+      "groundingUrls": [],
+      "createdAt": "2026-11-15T13:05:16.327Z"
+    }
+  ],
+  "automations": [
+    {
+      "id": "auto_morning_exercise",
+      "title": "Subah Exercise Reminder",
+      "hindiPrompt": "Roz subah 7 baje mujhe remind karna ki main exercise karun",
+      "cronLabel": "Daily at 07:00",
+      "timeOfDay": "07:00",
+      "recurrence": "daily",
+      "enabled": true,
+      "retries": 0,
+      "maxRetries": 3,
+      "lastRunAt": null,
+      "lastStatus": "pending",
+      "createdAt": "2026-11-15T12:21:51.554Z"
+    }
+  ],
+  "workflowHistory": [],
+  "agentRuns": [
+    {
+      "id": "run_1794747916326",
+      "agent": "research",
+      "agentLabel": "Research Agent",
+      "prompt": "Jarvis, tum kaun ho?",
+      "summary": "Completed via gemini-3.1-flash-lite fallback",
+      "status": "verified",
+      "provider": "gemini-3.1-flash-lite",
+      "latencyMs": 3210,
+      "createdAt": "2026-11-15T13:05:16.326Z"
+    },
+    {
+      "id": "run_1794747875404",
+      "agent": "android",
+      "agentLabel": "Android Agent",
+      "prompt": "whatsapp: ",
+      "summary": "Prepared action URL (https://wa.me/?text=)",
+      "status": "completed",
+      "provider": "gemini-3.8-live",
+      "latencyMs": 18,
+      "createdAt": "2026-11-15T13:04:35.404Z"
+    },
+    {
+      "id": "run_1794747869424",
+      "agent": "video",
+      "agentLabel": "Video Production Agent",
+      "prompt": "Creation Studio (youtube_video): AI Voice Assistant 2026",
+      "summary": "Generated \"AI Voice Assistant 2026: Future of Human Interaction\"",
+      "status": "verified",
+      "provider": "gemini-4-hydrogen",
+      "latencyMs": 1200,
+      "createdAt": "2026-11-15T13:04:29.424Z"
+    },
+    {
+      "id": "run_1794747651927",
+      "agent": "research",
+      "agentLabel": "Research Agent",
+      "prompt": "Namaste Jarvis, aaj mausam kaisa hai aur tum kaise ho?",
+      "summary": "Fallback completed via gemini-3.1-flash-lite",
+      "status": "completed",
+      "provider": "gemini-3.1-flash-lite",
+      "latencyMs": 5010,
+      "createdAt": "2026-11-15T13:00:51.927Z"
+    }
+  ],
+  "providers": [
+    {
+      "id": "gemini",
+      "name": "Google Gemini (Primary + Live Audio)",
+      "enabled": true,
+      "priority": 1,
+      "model": "gemini-4-hydrogen / gemini-3.8-live",
+      "hasKey": true,
+      "status": "ready"
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter Multi-Model Gateway",
+      "enabled": false,
+      "priority": 2,
+      "model": "google/gemini-2.5-flash",
+      "baseUrl": "https://openrouter.ai/api/v1/chat/completions",
+      "hasKey": false,
+      "status": "unconfigured"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI-Compatible Endpoint",
+      "enabled": false,
+      "priority": 3,
+      "model": "gpt-4o-mini",
+      "baseUrl": "https://api.openai.com/v1/chat/completions",
+      "hasKey": false,
+      "status": "unconfigured"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic Claude",
+      "enabled": false,
+      "priority": 4,
+      "model": "claude-3-5-sonnet-latest",
+      "baseUrl": "https://api.anthropic.com/v1/messages",
+      "hasKey": false,
+      "status": "unconfigured"
+    },
+    {
+      "id": "ollama",
+      "name": "Local AI Model (Ollama / Edge)",
+      "enabled": false,
+      "priority": 5,
+      "model": "llama3.2:latest",
+      "baseUrl": "http://127.0.0.1:11434/v1/chat/completions",
+      "hasKey": true,
+      "status": "fallback"
+    }
+  ],
+  "externalKeys": {},
+  "studioArtifacts": [
+    {
+      "id": "studio_1794747869424",
+      "type": "youtube_video",
+      "title": "AI Voice Assistant 2026: Future of Human Interaction",
+      "topic": "AI Voice Assistant 2026",
+      "language": "Hindi / Hinglish",
+      "scriptMarkdown": "# AI Voice Assistant 2026: Revolution\n\n## Introduction\nWelcome to the future. By 2026, AI voice assistants are no longer just speakers; they are proactive companions.\n\n## Key Features\n1. **Contextual Awareness**: They remember your entire history, not just the last query.\n2. **Emotional Intelligence**: Detecting stress or joy in your voice to adjust responses.\n3. **Multimodal Integration**: Real-time integration with AR glasses and neural interfaces.\n\n## Conclusion\nThe gap between human thought and digital action is closing. Are you ready for the 2026 shift?",
+      "subtitlesSrt": "1\n00:00:00,000 --> 00:00:04,000\n2026 mein AI voice assistants sirf speakers nahi, aapke personal digital bodyguard ban jayenge.",
+      "thumbnailHeadline": "AI VOICE 2026 REVEALED",
+      "thumbnailSubtext": "Future of Human AI Interaction",
+      "createdAt": "2026-11-15T13:04:29.424Z"
+    }
+  ],
+  "settings": {
+    "defaultLanguage": "hi",
+    "wakeWordEnabled": true,
+    "wakeWordSensitivity": 0.7,
+    "voiceName": "Charon",
+    "speechRate": 1,
+    "permissions": {
+      "microphone": false,
+      "notifications": false,
+      "accessibilityBridge": false,
+      "lockScreenMode": true
+    },
+    "voiceTone": "Calm"
+  }
+}
